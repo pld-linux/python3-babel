@@ -9,7 +9,7 @@ Summary:	Babel - internationalization library for Python 2
 Summary(pl.UTF-8):	Babel - biblioteka umiędzynaradawiająca dla Pythona 2
 Name:		python3-%{module}
 Version:	2.17.0
-Release:	3
+Release:	4
 License:	BSD-like
 Group:		Development/Languages/Python
 #Source0Download: https://pypi.org/simple/babel/
