@@ -97,7 +97,9 @@ rm -rf $RPM_BUILD_ROOT
 %{py3_sitescriptdir}/babel/py.typed
 %dir %{py3_sitescriptdir}/babel/locale-data
 %{py3_sitescriptdir}/babel/locale-data/root.dat
+%lang(be_BY@tarask) %{py3_sitescriptdir}/babel/locale-data/be_TARASK.dat
 %lang(ca_ES@valencia) %{py3_sitescriptdir}/babel/locale-data/ca_ES_VALENCIA.dat
+%lang(el) %{py3_sitescriptdir}/babel/locale-data/el_POLYTON.dat
 %{py3_sitescriptdir}/babel/messages
 %{py3_sitescriptdir}/babel-%{version}-py*.egg-info
 
