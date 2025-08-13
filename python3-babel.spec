@@ -29,7 +29,7 @@ BuildRequires:	python3-pytest
 BuildRequires:	python3-pytest-cov
 %endif
 %{?with_doc:BuildRequires:	sphinx-pdg}
-Requires:	python-modules >= 1:2.7
+Requires:	python3-modules
 Obsoletes:	python-Babel < 0.9.5-2
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
